@@ -111,7 +111,7 @@ nomeFunzione();
 
 notate come le parentesi tonde, la freccia, che poi è la risultante di un `=` con dopo una parentesi `>`, ritornino nel `forEach` loop del punto 5 di questa lista.
 
-1.  Conditional statement
+4.  Conditional statement
 
 Per controllare l'esecuzione di una parte di codice in maniera condizionale possiamo fare uso della sintassi `if else` illustrata nello snippet di seqguito
 
