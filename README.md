@@ -151,7 +151,7 @@ Vi lascio di seguito la tabella dei possibili operatori.
     In questa sezione della documentazione potete trovare illustrati i diversi modi con cui poter accedere alle informazioni contenute in una lista.
 
 ```js
-var lista = ["bea", "simo", "adri", "albi", "giammi"];
+var lista = ["beatrice", "simone", "adriana", "alberto"];
 lista.forEach((nome) => {
   console.log(nome);
 });
