@@ -10,9 +10,7 @@
   width: 100%;
 }
 
-.card {
-  background-color: gray;
-
+.card-setup {
   min-height: 400px;
   min-width: 300px;
 
@@ -22,6 +20,9 @@
   justify-content: center;
 }
 
+.card > h2 {
+  color: brown;
+}
 button {
   padding: 1em;
   padding-left: 3em;
@@ -35,4 +36,20 @@ button {
   justify-content: center;
 
   row-gap: 3em;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: rgb(69, 69, 236);
+  border-radius: 25px;
+  border: white 4px solid;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2),
+    0 15px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue > h2 {
+  color: white;
 }
