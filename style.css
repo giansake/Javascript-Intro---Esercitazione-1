@@ -10,11 +10,26 @@
   width: 100%;
 }
 
-.card {
-  background-color: gray;
+.card-off {
+  background-color: rgb(170, 46, 46);
 
   min-height: 400px;
-  min-width: 300px;
+  min-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-on {
+  background-color: rgb(46, 50, 170);
+  border: 5px solid white;
+  border-radius: 5%;
+  box-shadow: 0 0 20px rgba(0 0 0 / 50%);
+
+  min-height: 400px;
+  min-width: 400px;
 
   display: flex;
   flex-direction: column;
