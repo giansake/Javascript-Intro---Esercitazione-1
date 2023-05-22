@@ -63,7 +63,6 @@ button {
 }
 
 .link {
-  display: flex;
   position: absolute;
   width: 300px;
   height: 400px;
@@ -71,17 +70,19 @@ button {
 }
 
 .text {
-  display: flex;
   position: absolute;
   color: white;
   text-justify: center;
   top: 0;
 }
 
+header {
+  margin: 2px;
+  text-align: center;
+}
+
 header > h1,
 h3,
 p {
-  display: flex;
-  justify-content: center;
   margin: 5px;
 }
