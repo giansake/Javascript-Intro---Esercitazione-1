@@ -36,3 +36,13 @@ button {
 
   row-gap: 3em;
 }
+.card-blue {
+  background-color: blue;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.card-orange {
+  background-color: orange;
+  border: 2px solid white;
+  border-radius: 5px;
+}
