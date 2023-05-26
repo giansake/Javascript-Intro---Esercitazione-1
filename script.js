@@ -1,4 +1,4 @@
-let changeColorCard = document.getElementsByClassName("card");
+let changeColorCard = document.getElementById("mainCard");
 let hereIsTheMagic = document.getElementById("btn");
 
 function magic() {
@@ -8,6 +8,3 @@ function magic() {
     changeColorCard.className = "card-blue";
   }
 }
-
-// se la classe di card è card (lo è sempre) allora il colore del bottone sarà arancione
-// se no sarà blu

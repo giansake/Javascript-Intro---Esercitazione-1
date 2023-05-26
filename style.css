@@ -37,6 +37,8 @@ button {
   row-gap: 3em;
 }
 .card-blue {
+  min-height: 400px;
+  min-width: 300px;
   background-color: blue;
   border: 2px solid white;
   border-radius: 5px;
