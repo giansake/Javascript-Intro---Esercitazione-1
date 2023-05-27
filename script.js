@@ -1,5 +1,5 @@
-let = document.getElementById(card);
-let = document.getElementById(mrbean);
+let card = document.getElementById("card");
+let mrbean = document.getElementById("mrbean");
 
 function toggleClass() {
   if (card.className === "card-setup orange") {
